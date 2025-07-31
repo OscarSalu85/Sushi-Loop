@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\Sushi Loop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\sushimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\sushimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\cintamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\cintamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\mesamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\mesamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\platoscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\platoscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|d:\\proyectos\\sushi loop\\assets\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\gamescript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gameScript.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Sushi Loop\\Assets\\gameScript.cs",
+              "RelativeDocumentMoniker": "Assets\\gameScript.cs",
+              "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\gameScript.cs",
+              "RelativeToolTip": "Assets\\gameScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T16:21:53.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "platoScript.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Sushi Loop\\Assets\\platoScript.cs",
+              "RelativeDocumentMoniker": "Assets\\platoScript.cs",
+              "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\platoScript.cs",
+              "RelativeToolTip": "Assets\\platoScript.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T16:06:28.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mesaManager.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Sushi Loop\\Assets\\mesaManager.cs",
+              "RelativeDocumentMoniker": "Assets\\mesaManager.cs",
+              "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\mesaManager.cs",
+              "RelativeToolTip": "Assets\\mesaManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T15:32:54.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cintaManager.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Sushi Loop\\Assets\\cintaManager.cs",
+              "RelativeDocumentMoniker": "Assets\\cintaManager.cs",
+              "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\cintaManager.cs",
+              "RelativeToolTip": "Assets\\cintaManager.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:51:40.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sushiManager.cs",
+              "DocumentMoniker": "D:\\Proyectos\\Sushi Loop\\Assets\\sushiManager.cs",
+              "RelativeDocumentMoniker": "Assets\\sushiManager.cs",
+              "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\sushiManager.cs",
+              "RelativeToolTip": "Assets\\sushiManager.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwCwAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T14:47:11.327Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
