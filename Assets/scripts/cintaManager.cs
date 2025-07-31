@@ -29,7 +29,7 @@ public class cintaManager : MonoBehaviour
     void Start()
     {
         spawnTime = Random.Range(0.5f, rate);
-        sushiList = readCSV();
+        readCSV();
     }
 
     // Update is called once per frame
@@ -42,10 +42,7 @@ public class cintaManager : MonoBehaviour
 
             int sushiType = Random.Range(0, sushiList.Count);
 
-            prefab.GetComponent<sushiManager>().sushi.name = sushiList[sushiType].name;
-            prefab.GetComponent<sushiManager>().sushi.type = sushiList[sushiType].type;
-            prefab.GetComponent<sushiManager>().sushi.num = sushiList[sushiType].num;
-            prefab.GetComponent<sushiManager>().sushi.color = sushiList[sushiType].color;
+            prefab.GetComponent<sushiManager>().sushi = sushiList[sushiType];
             //Debug.Log(prefab.GetComponent<sushiManager>().sushi.name);
 
             spawnTime = Random.Range(0.5f, rate);
@@ -53,26 +50,22 @@ public class cintaManager : MonoBehaviour
         }
     }
 
-    public List<Sushi> readCSV()
+    public void readCSV()
     {
-        List<Sushi> sushiList = new List<Sushi>();
+        sushiList = new List<Sushi>();
 
         string content = csv.ToString();
         string[] splt = content.Split("\n");
-        for (int i = 0; i < splt.Length; i++)
+        for (int i = 1; i < splt.Length; i++)
         {
-            if (i != 0)
-            {
-                string[] split = splt[i].Split(",");
-                Sushi sushi = new Sushi();
-                sushi.name = split[0];
-                sushi.type = split[1];
-                sushi.num = int.Parse(split[2]);
-                sushi.color = split[3];
-                sushiList.Add(sushi);
-                Debug.Log(sushi.color);
-            }
+            string[] split = splt[i].Split(",");
+            Sushi sushi = new Sushi();
+            sushi.name = split[0];
+            sushi.type = split[1];
+            sushi.num = int.Parse(split[2]);
+            sushi.color = split[3];
+            sushiList.Add(sushi);
+            Debug.Log(sushi.color);
         }
-        return sushiList;
     }
 }

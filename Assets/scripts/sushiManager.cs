@@ -16,15 +16,22 @@ public class sushiManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        if (sushi != null) {
+            //Debug.Log(sushi.color);
+            UnityEngine.Color MyColour = UnityEngine.Color.clear;
+            ColorUtility.TryParseHtmlString(sushi.color, out MyColour);
+
+            gameObject.GetComponent<SpriteRenderer>().color = MyColour;
+
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!picked && !firstPicked)
+        if (!firstPicked)
         {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y + velocity * Time.deltaTime, gameObject.transform.position.z);
+            gameObject.transform.position += new Vector3(0,velocity * Time.deltaTime,0);
 
             if (gameObject.transform.position.y > 13) 
             {
@@ -35,15 +42,6 @@ public class sushiManager : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-        }
-
-        if (sushi != null) {
-            //Debug.Log(sushi.color);
-            UnityEngine.Color MyColour = UnityEngine.Color.clear;
-            ColorUtility.TryParseHtmlString(sushi.color, out MyColour);
-
-            gameObject.GetComponent<SpriteRenderer>().color = MyColour;
-
         }
 
     }

@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using System;
 
 public class gameScript : MonoBehaviour
 {
@@ -16,7 +17,12 @@ public class gameScript : MonoBehaviour
     void Update()
     {
         time -= Time.deltaTime;
-        counter.text =  ((int)time).ToString();
-        if (time <= 0) time = roundTime;
+        if (time < 0) time = roundTime;
+
+        //counter.text = time > 4 ? ((int)time).ToString() : Math.Round(time,2).ToString(); va raro 
+        counter.text = ((int)time).ToString();
+       
+        
+        
     }
 }
