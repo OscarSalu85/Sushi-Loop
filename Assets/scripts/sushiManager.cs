@@ -10,6 +10,7 @@ public class sushiManager : MonoBehaviour
     bool firstPicked = false;
 
     public GameObject plato;
+    public GameObject platoPropio;
 
     public Sushi sushi;
 
@@ -18,11 +19,28 @@ public class sushiManager : MonoBehaviour
     {
         if (sushi != null) {
             //Debug.Log(sushi.color);
+            
             UnityEngine.Color MyColour = UnityEngine.Color.clear;
             ColorUtility.TryParseHtmlString(sushi.color, out MyColour);
 
-            gameObject.GetComponent<SpriteRenderer>().color = MyColour;
+            platoPropio.GetComponentInChildren<SpriteRenderer>().color = MyColour;
+            
+            Sprite[] sushiSprites = Resources.LoadAll<Sprite>("uramaki");
+     
+            switch (sushi.name)
+            {
+                case "maki":
+                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[0];
+                    break;
 
+                case "nigiri_gamba":
+                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[1];
+                    break;
+
+                case "nigiri_salmon":
+                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[2];
+                    break;
+            }
         }
     }
 
@@ -91,7 +109,7 @@ public class sushiManager : MonoBehaviour
                 placed = true;
                 Debug.Log("En el plato");
                 collision.gameObject.GetComponent<platoScript>().sushi = gameObject;
-                gameObject.transform.position = collision.transform.position;
+                gameObject.transform.position = new Vector3(collision.transform.position.x,collision.transform.position.y,gameObject.transform.position.z);
                 plato = collision.gameObject;
             }
             

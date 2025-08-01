@@ -61,11 +61,11 @@
     <Analyzer Include="D:\Unity\Editor\6000.1.13f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\cintaManager.cs" />
-    <Compile Include="Assets\platoScript.cs" />
-    <Compile Include="Assets\sushiManager.cs" />
-    <Compile Include="Assets\mesaManager.cs" />
-    <Compile Include="Assets\gameScript.cs" />
+    <Compile Include="Assets\scripts\platoScript.cs" />
+    <Compile Include="Assets\scripts\gameScript.cs" />
+    <Compile Include="Assets\scripts\cintaManager.cs" />
+    <Compile Include="Assets\scripts\mesaManager.cs" />
+    <Compile Include="Assets\scripts\sushiManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
