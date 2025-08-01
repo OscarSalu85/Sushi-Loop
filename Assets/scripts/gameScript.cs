@@ -65,10 +65,10 @@ public class gameScript : MonoBehaviour
 
     void updateText()
     {
-        vidaEnemy.text = enemy.vida.ToString();
-        vidaPlayer.text = player.vida.ToString();
+        vidaEnemy.text = "HP: " + enemy.vida.ToString();
+        vidaPlayer.text = "HP: " + player.vida.ToString();
 
-        defEnemy.text = enemy.def.ToString();
-        defPlayer.text = player.def.ToString();
+        defEnemy.text = "DEF: " + enemy.def.ToString();
+        defPlayer.text = "DEF: " + player.def.ToString();
     }
 }

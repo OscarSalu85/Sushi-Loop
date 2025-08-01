@@ -37,7 +37,7 @@ public class mesaManager : MonoBehaviour
         bool rep = true;
         while (rep)
         {
-            int dec = Random.Range(0, 4);
+            int dec = Random.Range(0, 5);
             switch (dec)
             {
                 case 0:
@@ -63,6 +63,11 @@ public class mesaManager : MonoBehaviour
                     manager.GetComponent<gameScript>().cintaManager.GetComponent<cintaManager>().velocity /= 2;
                     rep = false;
                     break;
+                case 4:
+                    enemy.def += 2;
+                    rep = false;
+                    break;
+
 
             }
         }

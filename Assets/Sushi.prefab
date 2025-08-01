@@ -115,7 +115,7 @@ Transform:
   m_GameObject: {fileID: 6900874997883032069}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.01, y: -4.26, z: -4.3818}
+  m_LocalPosition: {x: -7.01, y: -8, z: -4.3818}
   m_LocalScale: {x: 6.676003, y: 6.676003, z: 6.676003}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -189,14 +189,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf49c417ddb722e4dacb18fd5db3dcbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 5.5
+  velocity: 14
   plato: {fileID: 0}
   platoPropio: {fileID: 180840598655350420}
   sushi:
-    name: 
-    type: 
-    num: 0
-    color: 
+    name: nigiri_gamba
+    type: def
+    num: 2
+    color: "blue\r"
   cintaManager: {fileID: 0}
 --- !u!58 &7866445583847137444
 CircleCollider2D:
