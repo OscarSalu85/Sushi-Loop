@@ -1,0 +1,2104 @@
+Using pre-set license
+Built from '6000.1/staging' branch; Version is '6000.1.13f1 (418bd0acaa6b) revision 4295632'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'es' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Date: 2025-08-01T15:58:52Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Editor\6000.1.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Proyectos/Sushi Loop
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+33296
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Proyectos/Sushi Loop
+D:/Proyectos/Sushi Loop
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32528]  Target information:
+
+Player connection [32528]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2303285032 [EditorId] 2303285032 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL07ONBV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32528]  * "[IP] 192.168.1.205 [Port] 0 [Flags] 2 [Guid] 2303285032 [EditorId] 2303285032 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL07ONBV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32528]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 2303285032 [EditorId] 2303285032 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BL07ONBV) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32528] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32528] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 12.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.1.13f1 (418bd0acaa6b)
+[Subsystems] Discovering subsystems at path D:/Unity/Editor/6000.1.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Proyectos/Sushi Loop/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:          NVIDIA
+    VRAM:            5966 MB
+    App VRAM Budget: 5198 MB
+    Driver:          32.0.15.7283
+Initialize mono
+Mono path[0] = 'D:/Unity/Editor/6000.1.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Editor/6000.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Editor/6000.1.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Editor/6000.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Editor/6000.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity/Editor/6000.1.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003231 seconds.
+- Loaded All Assemblies, in  0.975 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 336 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.499 seconds
+Domain Reload Profiling: 2475ms
+	BeginReloadAssembly (378ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (385ms)
+			TypeCache.Refresh (382ms)
+				TypeCache.ScanAssembly (354ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (658ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (175ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.831 seconds
+Refreshing native plugins compatible for Editor in 2.31 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.911 seconds
+Domain Reload Profiling: 3741ms
+	BeginReloadAssembly (448ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (96ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1189ms)
+		LoadAssemblies (832ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (656ms)
+			TypeCache.Refresh (481ms)
+				TypeCache.ScanAssembly (440ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1912ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1610ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (328ms)
+			ProcessInitializeOnLoadAttributes (1068ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6622 unused Assets / (7.0 MB). Loaded Objects now: 7317.
+Memory consumption went from 144.3 MB to 137.3 MB.
+Total: 20.720500 ms (FindLiveObjects: 0.922400 ms CreateObjectMapping: 2.063600 ms MarkObjects: 12.134200 ms  DeleteObjects: 5.599000 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.246 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.660 seconds
+Domain Reload Profiling: 2910ms
+	BeginReloadAssembly (362ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (83ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (744ms)
+		LoadAssemblies (564ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (363ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (323ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1661ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (276ms)
+			ProcessInitializeOnLoadAttributes (941ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6620 unused Assets / (7.1 MB). Loaded Objects now: 7320.
+Memory consumption went from 146.9 MB to 139.9 MB.
+Total: 20.125100 ms (FindLiveObjects: 1.315700 ms CreateObjectMapping: 1.801100 ms MarkObjects: 10.338500 ms  DeleteObjects: 6.667500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 94320.662574 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0100907 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007026 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005622 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005172 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007475 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006015 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005733 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005731 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007241 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000527 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005465 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005149 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005672 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005222 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0012181 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006324 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006143 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005642 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006908 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005062 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005186 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005717 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006828 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00073 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.00081 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005769 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009532 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0066446 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005499 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005495 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005608 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008554 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006124 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006128 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005731 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005008 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005169 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008654 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005382 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005479 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006639 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0004875 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006257 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006128 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005449 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007048 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007163 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000556 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006225 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005176 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006194 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006669 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005331 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008206 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005136 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006448 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000549 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005983 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005406 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000795 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005964 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000497 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007091 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007683 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005734 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006685 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005372 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005449 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005284 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005441 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005839 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000578 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005094 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005578 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006346 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006289 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0010309 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006204 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000507 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005271 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005438 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006707 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000589 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005174 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005916 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006107 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006602 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005486 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005854 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005812 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000537 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000783 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005524 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005355 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006691 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005783 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005837 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007644 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005222 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000533 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006575 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005164 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006505 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009285 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006583 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008535 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008069 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007449 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0007725 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005251 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005658 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006233 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005754 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000529 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000615 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006465 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005275 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005277 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006309 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005464 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006097 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006371 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005836 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006761 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006435 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006083 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000691 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000703 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0009811 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000605 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005511 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005567 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005641 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0008073 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005703 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006716 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0011423 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005851 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0004746 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005775 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.000636 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0004985 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005977 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005201 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005423 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001838 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005962 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005578 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005541 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005653 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005433 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006222 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006821 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0006913 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0005328 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0026099 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+  ERROR: Build asset version error: assets/scripts/mesamanager.cs in SourceAssetDB has modification time of '2025-08-01T15:58:54.4701723Z' while content on disk has modification time of '2025-08-01T15:58:59.4448113Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/scripts/mesaManager.cs
+  artifactKey: Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/mesaManager.cs using Guid(ae561ecc566344b47bf78c93413f4097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '442f685d070215bdc90a66ca2efd4df2') in 0.000708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.227 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.689 seconds
+Domain Reload Profiling: 2918ms
+	BeginReloadAssembly (375ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (77ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (705ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (301ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1690ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (235ms)
+			ProcessInitializeOnLoadAttributes (957ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6620 unused Assets / (6.6 MB). Loaded Objects now: 7324.
+Memory consumption went from 147.8 MB to 141.2 MB.
+Total: 15.854400 ms (FindLiveObjects: 1.086800 ms CreateObjectMapping: 1.800800 ms MarkObjects: 7.748600 ms  DeleteObjects: 5.216800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (6.9 MB). Loaded Objects now: 7324.
+Memory consumption went from 150.0 MB to 143.1 MB.
+Total: 17.976200 ms (FindLiveObjects: 0.875700 ms CreateObjectMapping: 1.455900 ms MarkObjects: 10.566300 ms  DeleteObjects: 5.076800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.329 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.548 seconds
+Domain Reload Profiling: 2881ms
+	BeginReloadAssembly (390ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (777ms)
+		LoadAssemblies (569ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (354ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (801ms)
+			ProcessInitializeOnLoadMethodAttributes (91ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6620 unused Assets / (6.8 MB). Loaded Objects now: 7326.
+Memory consumption went from 151.9 MB to 145.1 MB.
+Total: 11.024600 ms (FindLiveObjects: 0.781100 ms CreateObjectMapping: 1.082100 ms MarkObjects: 5.408100 ms  DeleteObjects: 3.752200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6609 unused Assets / (6.7 MB). Loaded Objects now: 7326.
+Memory consumption went from 154.0 MB to 147.3 MB.
+Total: 20.056400 ms (FindLiveObjects: 0.931100 ms CreateObjectMapping: 1.686100 ms MarkObjects: 12.286200 ms  DeleteObjects: 5.150500 ms)
+
+Prepare: number of updated asset objects reloaded= 0

@@ -15,4 +15,14 @@ public class mesaManager : MonoBehaviour
     {
         
     }
+
+    public void vaciarMesa()
+    {
+        foreach (GameObject obj in platos)
+        {
+            GameObject sushi = obj.GetComponent<platoScript>().sushi;
+            Destroy(sushi);
+            obj.GetComponent<platoScript>().sushi = null;
+        }
+    }
 }

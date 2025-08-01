@@ -7,6 +7,9 @@ public class gameScript : MonoBehaviour
     public TMP_Text counter;
     float time;
     public float roundTime;
+
+    public GameObject mesa;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,7 +20,11 @@ public class gameScript : MonoBehaviour
     void Update()
     {
         time -= Time.deltaTime;
-        if (time < 0) time = roundTime;
+        if (time < 0) 
+        {   
+            time = roundTime;
+            mesa.GetComponent<mesaManager>().vaciarMesa();
+        }
 
         //counter.text = time > 4 ? ((int)time).ToString() : Math.Round(time,2).ToString(); va raro 
         counter.text = ((int)time).ToString();
