@@ -8,11 +8,14 @@ public class sushiManager : MonoBehaviour
     bool placed = false;
 
     bool firstPicked = false;
+    bool palante = true;
 
     public GameObject plato;
     public GameObject platoPropio;
 
     public Sushi sushi;
+
+    public GameObject cintaManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,6 +45,8 @@ public class sushiManager : MonoBehaviour
                     break;
             }
         }
+
+        cintaManager = GameObject.Find("CintaManager");
     }
 
     // Update is called once per frame
@@ -49,11 +54,22 @@ public class sushiManager : MonoBehaviour
     {
         if (!firstPicked)
         {
-            gameObject.transform.position += new Vector3(0,velocity * Time.deltaTime,0);
+            if (!palante)
+            {
+                gameObject.transform.position -= new Vector3(0, velocity * Time.deltaTime, 0);
+            }
+            else
+            {
+                gameObject.transform.position += new Vector3(0,velocity * Time.deltaTime,0);
+            }
+            
 
             if (gameObject.transform.position.y > 13) 
             {
-                velocity *= -1;
+                if (palante)
+                {
+                    palante = false;
+                }
                 gameObject.transform.position = new Vector3(7,10,gameObject.transform.position.z);
             }
             else if (gameObject.transform.position.y < -13)
@@ -61,6 +77,8 @@ public class sushiManager : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+        velocity = cintaManager.GetComponent<cintaManager>().velocity;
 
     }
 

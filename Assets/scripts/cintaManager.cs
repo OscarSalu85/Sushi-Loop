@@ -45,8 +45,13 @@ public class cintaManager : MonoBehaviour
             prefab.GetComponent<sushiManager>().sushi = sushiList[sushiType];
             //Debug.Log(prefab.GetComponent<sushiManager>().sushi.name);
 
-            spawnTime = Random.Range(0.5f, rate);
+            rate = 2 * velocity / 7;
+            spawnTime = Random.Range(0.15f, 2f/rate);
             time = 0;
+        }
+        if(velocity > 56)
+        {
+            velocity = 56;
         }
     }
 
