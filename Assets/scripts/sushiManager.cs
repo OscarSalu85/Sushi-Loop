@@ -15,38 +15,12 @@ public class sushiManager : MonoBehaviour
 
     public Sushi sushi;
 
-    public GameObject cintaManager;
+    public cintaManager cinta;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (sushi != null) {
-            //Debug.Log(sushi.color);
-            
-            UnityEngine.Color MyColour = UnityEngine.Color.clear;
-            ColorUtility.TryParseHtmlString(sushi.color, out MyColour);
 
-            platoPropio.GetComponentInChildren<SpriteRenderer>().color = MyColour;
-            
-            Sprite[] sushiSprites = Resources.LoadAll<Sprite>("uramaki");
-     
-            switch (sushi.name)
-            {
-                case "maki":
-                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[0];
-                    break;
-
-                case "nigiri_gamba":
-                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[1];
-                    break;
-
-                case "nigiri_salmon":
-                    gameObject.GetComponent<SpriteRenderer>().sprite = sushiSprites[2];
-                    break;
-            }
-        }
-
-        cintaManager = GameObject.Find("CintaManager");
     }
 
     // Update is called once per frame
@@ -78,7 +52,7 @@ public class sushiManager : MonoBehaviour
             }
         }
 
-        velocity = cintaManager.GetComponent<cintaManager>().velocity;
+        velocity = cinta.velocity;
 
     }
 

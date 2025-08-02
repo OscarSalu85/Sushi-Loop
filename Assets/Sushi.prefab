@@ -189,15 +189,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf49c417ddb722e4dacb18fd5db3dcbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: 14
+  velocity: 7
   plato: {fileID: 0}
   platoPropio: {fileID: 180840598655350420}
   sushi:
-    name: nigiri_gamba
-    type: def
-    num: 2
-    color: "blue\r"
-  cintaManager: {fileID: 0}
+    name: maki
+    type: atk
+    num: 1
+    color: "red\r"
+  cinta: {fileID: 0}
 --- !u!58 &7866445583847137444
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+//using System;
 
 public class Player
 {
@@ -19,7 +21,7 @@ public class gameScript : MonoBehaviour
     float time;
     public float roundTime;
 
-    public GameObject mesa;
+    public mesaManager mesa;
 
     public Player player;
     public Enemy enemy;
@@ -31,6 +33,8 @@ public class gameScript : MonoBehaviour
 
     public TMP_Text defEnemy;
     public TMP_Text defPlayer;
+
+    public Image barraTiempo;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,14 +54,17 @@ public class gameScript : MonoBehaviour
     void Update()
     {
         time -= Time.deltaTime;
-        if (time < 0) 
-        {   
+
+        barraTiempo.fillAmount = time / roundTime;
+        
+        if (time < 0)
+        {
             time = roundTime;
-            mesa.GetComponent<mesaManager>().vaciarMesa();
+            mesa.vaciarMesa();
         }
 
-        //counter.text = time > 4 ? ((int)time).ToString() : Math.Round(time,2).ToString(); va raro 
-        counter.text = ((int)time).ToString();       
+        //counter.text = time > 4 ? ((int)time).ToString() : Math.Round(time,2).ToString(); //va raro 
+        //counter.text = ((int)time).ToString();
 
         updateText();
         
