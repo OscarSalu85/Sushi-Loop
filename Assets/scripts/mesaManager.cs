@@ -125,7 +125,7 @@ public class mesaManager : MonoBehaviour
         {
             enemy.def = Mathf.Max(enemy.def-dañoDef, 0);
         }
-        else
+        if (enemy.def == 0)
         {
             enemy.vida = Mathf.Max(enemy.vida-dañoVida, 0);
         }

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\Proyectos\\Sushi Loop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\scripts\\mesamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|d:\\proyectos\\sushi loop\\assets\\scripts\\mesamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mesamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|d:\\proyectos\\sushi loop\\assets\\scripts\\cintamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|D:\\Proyectos\\Sushi Loop\\assets\\scripts\\cintamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF46A550-EAEE-6908-E35A-05D901FB0BA2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cintamanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\mesaManager.cs",
               "ToolTip": "D:\\Proyectos\\Sushi Loop\\Assets\\scripts\\mesaManager.cs",
               "RelativeToolTip": "Assets\\scripts\\mesaManager.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwDkAAAAkAAAA",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAowIYAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T14:38:36.864Z",
               "IsPinned": true,
@@ -56,8 +56,7 @@
               "RelativeToolTip": "Assets\\scripts\\cintaManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAABzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:39:13.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:39:13.597Z"
             },
             {
               "$type": "Document",
@@ -69,8 +68,7 @@
               "RelativeToolTip": "Assets\\scripts\\gameScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:38:52.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:38:52.786Z"
             },
             {
               "$type": "Document",
